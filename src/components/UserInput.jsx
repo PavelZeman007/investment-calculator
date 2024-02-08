@@ -3,7 +3,7 @@ export function UserInput({ onChange, userInput }) {
     <section id="user-input">
       <div className="input-group">
         <p>
-          <label htmlFor="">Initial Investment</label>
+          <label>Počáteční investice</label>
           <input
             type="number"
             required
@@ -14,7 +14,7 @@ export function UserInput({ onChange, userInput }) {
           />
         </p>
         <p>
-          <label htmlFor="">Annual Investment</label>
+          <label>Roční investice</label>
           <input
             type="number"
             required
@@ -27,7 +27,7 @@ export function UserInput({ onChange, userInput }) {
       </div>
       <div className="input-group">
         <p>
-          <label htmlFor="">Expected Return</label>
+          <label>Úrok v %</label>
           <input
             type="number"
             required
@@ -36,7 +36,7 @@ export function UserInput({ onChange, userInput }) {
           />
         </p>
         <p>
-          <label htmlFor="">Duration</label>
+          <label>Doba trvání (roky)</label>
           <input
             type="number"
             required

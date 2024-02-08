@@ -13,11 +13,11 @@ export function Results({ userInput }) {
     <table id="result">
       <thead>
         <tr>
-          <th>Year</th>
-          <th>Investment Value</th>
-          <th>Interest (Year)</th>
-          <th>Total Interest</th>
-          <th>Invested Capital</th>
+          <th>Rok</th>
+          <th>Hodnota investice</th>
+          <th>Úrok (roční)</th>
+          <th>Celkový úrok</th>
+          <th>Investovaný kapitál</th>
         </tr>
       </thead>
       <tbody>

@@ -4,7 +4,7 @@ export function Header() {
   return (
     <header id="header">
       <img src={logo} alt="money bag logo" />
-      <h1>Investment Calculator</h1>
+      <h1>Investiční kalkulačka</h1>
     </header>
   );
 }
